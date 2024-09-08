@@ -19,6 +19,8 @@ public class User {
 
     private String username;
 
+    private String role;
+
     @OneToOne
     private Stream stream;
 

@@ -16,6 +16,8 @@ public class Stream {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String streamKey;
+
     private String title;
     private boolean isActive;
 
